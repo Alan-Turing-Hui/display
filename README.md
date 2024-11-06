@@ -41,12 +41,12 @@
 
 <p align="center">
   <img src="3_images/MLP_metrics.png" width="45%" />
-  <img src="old/old_images/MLP_metrics.png" width="45%" />
+  <img src="old_images/MLP_metrics.png" width="45%" />
 </p>
 
 ### Confusion Matrix 
 
 <p align="center">
   <img src="3_images/MLP_cm.png" width="45%" />
-  <img src="old/old_images/MLP_cm.png" width="45%" />
+  <img src="old_images/MLP_cm.png" width="45%" />
 </p>
