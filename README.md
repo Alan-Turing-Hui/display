@@ -1,42 +1,52 @@
-# Psychological Analysis System
+# The result comprison between three and five categories 
 
-## This section utilizes some models for classification
+1. **The **_left_** side images below are the results of **_three_** categories**
+2. **The _right_ side images below are the results of _five_ categories**
 
-### The result of Support Vector Machine
+## The result of Support Vector Machine
 
-1. Some metrics show the performance based on the Stratified K-Fold cross-validator
+### Accuracy、Precision、Recall、and F1-scores
 
-![SVM Performance Plot](images/svm_performance.png)
+<p align="center">
+  <img src="3_images/svm_metrics.png" width="45%" />
+  <img src="5_images/svm_metrics.png" width="45%" />
+</p>
 
-2. Confusion Matrix shows the resulting outcome of SVM after training 
+### Degree of Importance of Predictors
 
-![SVM Confusion Matrix Plot](images/svm_confusion_matrix.png)
+<p align="center">
+  <img src="3_images/importance_plot.png" width="45%" />
+  <img src="5_images/importance_plot.png" width="45%" />
+</p>
 
-### The result of LeNet
+## The result of Random Forest
 
-1. LeNet is a pioneering convolutional neural network (CNN) architecture, the plot below shows the training process of it
+### Cross-validation Accuracy
 
-![LeNet Performance Plot](images/LeNet_performance_metrics.png)
+<p align="center">
+  <img src="3_images/rm_cv_scores.png" width="45%" />
+  <img src="5_images/rm_cv_scores.png" width="45%" />
+</p>
 
-2. Confusion Matrix shows the resulting outcome of LeNet after training 
+### Degree of Importance of Predictors
 
-![LeNet Confusion Matrix Plot](images/CM_for_LeNet.png)
+<p align="center">
+  <img src="3_images/rf_importance.png" width="45%" />
+  <img src="5_images/rf_importance.png" width="45%" />
+</p>
 
-### The result of MLP
+## The result of Multi-layer Perceptron
 
-A **Multilayer Perceptron (MLP)** is a type of artificial neural network consisting of multiple layers of nodes (neurons) arranged in an input layer, one or more hidden layers, and an output layer. Each node in a layer is connected to every node in the next layer, and these connections have associated weights that are adjusted during training.
+### Accuracy、Precision、Recall、and F1-scores
 
-**Key Features:**
-- **Feedforward Architecture**: Data flows in one direction, from input to output.
-- **Activation Functions**: Non-linear functions (like ReLU, sigmoid, or tanh) are applied to the outputs of each node to introduce non-linearity.
-- **Backpropagation**: A training algorithm that adjusts the weights based on the error of the output compared to the expected result, allowing the network to learn from data.
+<p align="center">
+  <img src="3_images/MLP_metrics.png" width="45%" />
+  <img src="old/old_images/MLP_metrics.png" width="45%" />
+</p>
 
-1. The plot below shows the training of it
+### Confusion Matrix 
 
-![MLP Performance Plot](images/MLP_metrics.png)
-
-2. Confusion Matrix shows the resulting outcome of MLP after training
-
-![MLP Confusion Matrix Plot](images/MLP_cm.png)
-
-MLPs are commonly used for tasks like classification and regression in supervised learning. According to the plots above, we can see that it works pretty well.
+<p align="center">
+  <img src="3_images/MLP_cm.png" width="45%" />
+  <img src="old/old_images/MLP_cm.png" width="45%" />
+</p>
