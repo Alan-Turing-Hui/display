@@ -2,4 +2,4 @@
 
 ## Features Distribution and Correlation 
 
-![Opps]('images/wow.png')
+![Opps](images/wow.png)
