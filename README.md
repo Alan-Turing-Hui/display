@@ -2,7 +2,7 @@
 
 ## Features Distribution and Correlation 
 
-![Opps](images/wow.png)
+![Opps](images/fancy_correlation.png)
 
 ## Features and Targets Correlation
 
